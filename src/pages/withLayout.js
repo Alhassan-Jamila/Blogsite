@@ -1,7 +1,9 @@
-import React from "react"
+import React, { Component } from "react"
 import { Link } from "react-router-dom"
+
 function withLayout(Component) {
   function Layout() {
+    
     return (
       <div className="layout">
         <header className="appbar">
