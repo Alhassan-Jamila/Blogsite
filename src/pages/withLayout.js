@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function withLayout(Component) {
   function Layout() {
-    
+
     return (
       <div className="layout">
         <header className="appbar">
@@ -11,8 +11,8 @@ function withLayout(Component) {
           <div>
             <nav>
               <span className="nav-link"><Link to="/"> Home</Link></span>
-              <span className="nav-link"><Link to="/">About</Link></span>
-              <span className="nav-link"><Link to="/">Blog</Link></span>
+              <span className="nav-link"><Link to="/about">About</Link></span>
+              <span className="nav-link"><Link to="/blog">Blog</Link></span>
             </nav>
           </div>
         </header>
